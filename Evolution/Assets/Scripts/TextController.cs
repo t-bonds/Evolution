@@ -9,10 +9,6 @@ public class TextController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
      {
-         instructionsText.text = "Evolution " +
-                                 "Use the left and right keys to move forward and backwards. " +
-                                 "Use the space bar to jump. To defend enemies, jump on top of them. " +
-                                 "Collect tokens to move to the next level and evolve.";
          Time.timeScale = 0;
      }
  
